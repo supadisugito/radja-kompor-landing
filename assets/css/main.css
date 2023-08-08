@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #983436;
+  --color-primary: #B13831;
   --color-secondary: #37373f;
 }
 
@@ -586,6 +586,7 @@ section {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .about .call-us h4 {
@@ -709,6 +710,7 @@ section {
   padding: 30px;
   background: var(--color-primary);
   color: #fff;
+  border-radius: 10px;
 }
 
 .why-us .why-box h3 {
@@ -747,6 +749,7 @@ section {
   height: 100%;
   border: 1px solid rgba(55, 55, 63, 0.1);
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .why-us .icon-box i {
@@ -1334,6 +1337,7 @@ section {
     background: #fff;
     z-index: 1;
     transform: scale(1.2);
+    border-radius: 10px;
   }
 }
 
@@ -1344,6 +1348,7 @@ section {
   background: #f4f4f4;
   padding: 30px;
   height: 100%;
+  border-radius: 10px;
 }
 
 .contact .info-item .icon {
