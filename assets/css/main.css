@@ -297,6 +297,17 @@ section {
   background: rgba(206, 18, 18, 0.8);
 }
 
+/* Media query for smaller screens, e.g., mobile phones */
+@media (max-width: 767px) {
+  .header .btn-book-a-table,
+  .header .btn-book-a-table:focus {
+    font-size: 12px; /* Reduced font size for mobile */
+    padding: 6px 14px; /* Reduced padding for mobile */
+    margin-left: 20px; /* Reduced margin for mobile */
+    border-radius: 40px; /* Slightly reduced border radius for mobile */
+  }
+}
+
 section {
   scroll-margin-top: 90px;
 }
@@ -532,7 +543,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    margin: 0 10px 0 20px;
+    margin: 0 10px 0 10px;
   }
 
   .mobile-nav-hide {
@@ -1521,7 +1532,7 @@ section {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 36px;
+  padding: 12px 24px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
